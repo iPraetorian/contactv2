@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+    font-family: arial;
+    color: #FCFBFC;
+    font-size: 40px;
+    border: solid;
+    background: #8B8782;
+    text-align: center;
+    text-shadow: 3px 2px #696964;
+}
+
+h2 {
+    font-family: arial;
+    color: #060151;
+    font-size: 20px;
+    border: solid;
+    background: #8B8782;
+}
