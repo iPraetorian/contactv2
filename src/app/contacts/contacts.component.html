@@ -1,3 +1,9 @@
 <h2>{{ contact.name | uppercase }}</h2>
 <div><span>title: </span>{{ contact.title }}</div>
 <div><span>name: </span>{{ contact.name }}</div>
+<div>
+  <label>name:
+    <input [(ngModel)]="contact.name" placeholder="name">
+
+  </label>
+</div>
