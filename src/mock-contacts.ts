@@ -9,4 +9,4 @@ export const CONTACTS: Contact[] = [
     {title: 'Ruthless Killer', name: 'Leon'},
     {title: 'Avenger', name: 'Thor'},
     {title: 'Wolverine', name: 'Patrick Swayze'}
-]
+];
