@@ -4,7 +4,7 @@ h1 {
     color: #FCFBFC;
     font-size: 40px;
     border: solid;
-    background: #8B8782;
+    background: #75170F;
     text-align: center;
     text-shadow: 3px 2px #696964;
 }
@@ -14,5 +14,11 @@ h2 {
     color: #060151;
     font-size: 20px;
     border: solid;
-    background: #8B8782;
+    background: #66A6E9;
+}
+
+.eighties {
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
 }

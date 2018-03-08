@@ -10,15 +10,16 @@ import { CONTACTS } from '../../mock-contacts';
 export class ContactsComponent implements OnInit {
 
   contacts = CONTACTS;
+  selectedContact: Contact;
   
-  contact: Contact = {
-    title: 'investor',
-    name: 'Erlich Bachman'
-  };
 
   constructor() { }
 
   ngOnInit() {
+  }
+  
+  onSelect(contact:Contact): void {
+    this.selectedContact = contact;
   }
 
 }
