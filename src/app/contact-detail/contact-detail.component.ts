@@ -7,6 +7,7 @@ import { Contact } from '../../contact';
   styleUrls: ['./contact-detail.component.css']
 })
 export class ContactDetailComponent implements OnInit {
+  
   @Input() contact: Contact;
 
 
