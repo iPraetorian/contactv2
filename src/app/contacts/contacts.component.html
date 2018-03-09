@@ -5,7 +5,7 @@
   </li>
 </ul>
 
-<div *ngIf="selectedContact">
+<!-- <div *ngIf="selectedContact">
   <h2>{{ contact.name | uppercase }} Details</h2>
   <div>
     <span>title: </span>{{ selectedContact.title }}</div>
@@ -14,5 +14,6 @@
       <input [(ngModel)]="selectedContact.name" placeholder="name">
 
     </label>
-  </div>
+  </div> -->
 </div>
+<app-contact-detail>[contact]="selectedContact"></app-contact-detail>
