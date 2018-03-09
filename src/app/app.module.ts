@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ContactsComponent } from './contacts/contacts.component';
+<<<<<<< HEAD
 import { ContactDetailComponent } from './contact-detail/contact-detail.component';
 import { ContactService } from './contact.service';
 import { MessageService } from './message.service';
@@ -18,6 +19,8 @@ import { HttpModule } from '@angular/http';
 
 
 
+=======
+>>>>>>> updating import in app module
 
 
 
