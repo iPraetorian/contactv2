@@ -8,6 +8,7 @@ import { ContactDetailComponent } from './contact-detail/contact-detail.componen
 import { ContactService } from './contact.service';
 import { MessageService } from './message.service';
 import { MessagesComponent } from './messages/messages.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 
@@ -21,7 +22,8 @@ import { MessagesComponent } from './messages/messages.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [
     ContactService,
