@@ -9,6 +9,7 @@ import { ContactService } from './contact.service';
 import { MessageService } from './message.service';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -18,7 +19,8 @@ import { AppRoutingModule } from './/app-routing.module';
     AppComponent,
     ContactsComponent,
     MessagesComponent,
-    ContactDetailComponent
+    ContactDetailComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
