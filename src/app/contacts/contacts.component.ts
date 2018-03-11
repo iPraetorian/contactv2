@@ -12,7 +12,6 @@ import { ContactService } from '../contact.service';
 })
 export class ContactsComponent implements OnInit {
 
-  selectedContact: Contact;
   contacts: Contact[];
 
 
@@ -20,10 +19,6 @@ export class ContactsComponent implements OnInit {
 
   ngOnInit() {
     this.getContacts();
-  }
-
-  onSelect(contact: Contact): void {
-    this.selectedContact = contact;
   }
 
   getContacts(): void {
