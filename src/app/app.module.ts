@@ -14,6 +14,8 @@ import { HomeComponent } from './home/home.component';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +31,7 @@ import { HomeComponent } from './home/home.component';
   ],
   providers: [
     ContactService,
-    MessageService,
+    MessageService
   ],
   bootstrap: [AppComponent]
 })
