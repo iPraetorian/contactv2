@@ -6,15 +6,21 @@ import { ContactDetailComponent } from './contact-detail/contact-detail.componen
 import { FormsModule } from '@angular/forms';
 import { ContactService } from './contact.service';
 import { MessageService } from './message.service';
+import { RouterTestingModule } from '@angular/router/testing';
+
+
+
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [ FormsModule],
+      imports: [ FormsModule, RouterTestingModule ],
+      
       declarations: [
         AppComponent,
         ContactsComponent,
         MessagesComponent,
         ContactDetailComponent
+       
       ],
       providers: [ContactService, MessageService]
     }).compileComponents();
@@ -24,7 +30,7 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'contactd'`, async(() => {
+  it(`should have as title 'Contacts'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('Contacts');

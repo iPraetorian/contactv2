@@ -2,15 +2,18 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ContactDetailComponent } from './contact-detail.component';
 import { FormsModule } from '@angular/forms';
-
+import { RouterTestingModule } from '@angular/router/testing';
+import { ContactService } from '../contact.service';
+import { MessageService } from '../message.service';
 describe('ContactDetailComponent', () => {
   let component: ContactDetailComponent;
   let fixture: ComponentFixture<ContactDetailComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [ FormsModule ],
-      declarations: [ ContactDetailComponent ]
+      imports: [ FormsModule, RouterTestingModule ],
+      declarations: [ ContactDetailComponent ],
+      providers: [ContactService, MessageService]
     })
     .compileComponents();
   }));
