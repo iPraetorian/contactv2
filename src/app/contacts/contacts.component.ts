@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Contact } from '../../contact';
-import { CONTACTS } from '../../mock-contacts';
+//import { CONTACTS } from '../../mock-contacts';
 import { ContactService } from '../contact.service';
 
 

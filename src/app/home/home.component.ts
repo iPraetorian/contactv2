@@ -8,7 +8,7 @@ import { ContactService } from '../contact.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  contact: Contact[] = [];
+  contacts: Contact[] = [];
 
   constructor(private contactService: ContactService) { }
 
@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
 
   getContacts(): void {
     this.contactService.getContacts()
-    .subscribe(contacts => this.contact = //contact or contacts?
+    .subscribe(contacts => this.contacts =
     contacts.slice(1, 5));
   }
 

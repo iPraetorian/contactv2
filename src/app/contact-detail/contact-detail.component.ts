@@ -1,8 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Contact } from '../../contact';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
+
+import { Contact } from '../../contact';
 import { ContactService } from '../contact.service';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-contact-detail',
@@ -10,18 +12,24 @@ import { ContactService } from '../contact.service';
   styleUrls: ['./contact-detail.component.css']
 })
 export class ContactDetailComponent implements OnInit {
-  
   @Input() contact: Contact;
-
-
 
   constructor(
     private route: ActivatedRoute,
     private contactService: ContactService,
     private location: Location
-  ) { }
+  ) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
+    this.getContact();
+  }
+  getContact(): void {
+    const string = +this.route.snapshot.paramMap.get('name');
+    this.contactService.getContact(name)
+    .subscribe(contact => this.contact = contact);
+  }
+  goBack(): void {
+    this.location.back();
   }
 
 }
