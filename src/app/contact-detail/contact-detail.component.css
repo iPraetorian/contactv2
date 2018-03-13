@@ -23,3 +23,7 @@
   .button:hover {
     background-color: #cfd8dc;
   }
+
+  .thumbnail{
+    max-width: 200px;
+  }

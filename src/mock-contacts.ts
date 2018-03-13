@@ -1,7 +1,7 @@
 import { Contact } from './contact';
 
 export const CONTACTS: Contact[] = [
-    {id: 1, title: 'Climber', name: 'Royal Robbins', image: 'assets/images/rRobbins.jpg'},
+    {id: 1, title: 'Climber', name: 'Royal Robbins', image: 'assets/images/rRobins.jpg'},
     {id: 2, title: 'Climber', name: 'Jim Bridwell', image: ''},
     {id: 3, title: 'Climber', name: 'Dale Bard', image: ''},
     {id: 4, title: 'MotoGP Racer', name: 'Nicky Hayden', image: ''},
