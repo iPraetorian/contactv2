@@ -1,30 +1,34 @@
-h1 {
-    font-size: 1.2em;
-    color: #999;
-    margin-bottom: 0;
-  }
-  h2 {
-    font-size: 2em;
-    margin-top: 0;
-    padding-top: 0;
-  }
+
   nav a {
     padding: 5px 10px;
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
-    background-color: #eee;
+    background-color: gray;
     border-radius: 4px;
+
+  }
+  .btns {
+    text-align: center;
+    padding: 2em;
   }
   nav a:visited, a:link {
-    color: #607D8B;
+    color: black;
   }
   nav a:hover {
-    color: #039be5;
+    color: yellow;
     background-color: #CFD8DC;
   }
   nav a.active {
     color: #039be5;
-  } 
+  }
+
+.pimg {
+  height: auto;
+  width: 100%;
+  
+}
+
+
 
   

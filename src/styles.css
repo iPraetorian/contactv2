@@ -4,21 +4,10 @@ h1 {
     color: #FCFBFC;
     font-size: 40px;
     border: solid;
-    background: #75170F;
+    background: black;
     text-align: center;
-    text-shadow: 3px 2px #696964;
+    
 }
 
-h2 {
-    font-family: arial;
-    color: #060151;
-    font-size: 20px;
-    border: solid;
-    background: #66A6E9;
-}
 
-.eighties {
-    width: 100%;
-    text-align: center;
-    padding-top: 1em;
-}
+

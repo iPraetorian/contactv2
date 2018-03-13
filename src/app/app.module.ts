@@ -17,6 +17,13 @@ import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
+
+  imports: [
+    AppRoutingModule,
+    BrowserModule,
+    FormsModule,
+
+  ],
   declarations: [
     AppComponent,
     ContactsComponent,
@@ -24,12 +31,7 @@ import { HomeComponent } from './home/home.component';
     ContactDetailComponent,
     HomeComponent
   ],
-  imports: [
-    AppRoutingModule,
-    BrowserModule,
-    FormsModule,
-
-  ],
+  
   providers: [
     ContactService,
     MessageService
