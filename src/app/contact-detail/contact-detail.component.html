@@ -1,6 +1,7 @@
 <div *ngIf="contact">
   <h2>{{ contact.name | uppercase }} Details</h2>
- <div><span>id: </span>{{contact.title}}</div>
+ <div><span>title: </span>{{contact.title}} </div>
+ 
 <div>
   <label>name:
     <input [(ngModel)]="contact.name" placeholder="name"/>

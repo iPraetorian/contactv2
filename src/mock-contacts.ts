@@ -1,12 +1,14 @@
 import { Contact } from './contact';
 
 export const CONTACTS: Contact[] = [
-    {title: 'Driver', name: 'Michael Knight'},
-    {title: 'Pilot', name: 'Hawk'},
-    {title: 'Lord of Thundercats', name: 'Liono'},
-    {title: 'King', name: 'John Snow'},
-    {title: 'TopGun Pilot', name: 'Tom Cruise'},
-    {title: 'Ruthless Killer', name: 'Leon'},
-    {title: 'Avenger', name: 'Thor'},
-    {title: 'Wolverine', name: 'Patrick Swayze'}
+    {title: 'Climber', name: 'Royal Robbins'},
+    {title: 'Climber', name: 'Jim Bridwell'},
+    {title: 'Climber', name: 'Dale Bard'},
+    {title: 'MotoGP Racer', name: 'Nicky Hayden'},
+    {title: 'MotoGP Racer', name: 'Max Biaggi'},
+    {title: 'MotoGP Racer', name: 'Marco Simoncelli'},
+    {title: 'Painter', name: 'Kara Walker'},
+    {title: 'Painter', name: 'Jean-Michael Basquiat'},
+    {title: 'Writer', name: 'Jack Kerouac'},
+    {title: 'Writer', name: 'Richard Wright'}
 ];
