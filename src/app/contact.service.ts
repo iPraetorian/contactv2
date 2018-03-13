@@ -43,8 +43,10 @@ export class ContactService {
       };
     }
 
-   /* getContact(id: number ): Observable<Contact> {
-    this.messageService.add ('ContactService: fetched contact name=${name}');
-    return of (CONTACTS.find(contact =>contact.id ===id));
-  } */
-} 
+    getContact(id: number ): Observable<Contact> {
+      const url = `${this.contactsUrl}/${id}`;
+      return this.http.get<Contact>(url).pipe(
+        tap(_ => this.log(`fetched contact id=${id}`))
+    );
+  }
+}
