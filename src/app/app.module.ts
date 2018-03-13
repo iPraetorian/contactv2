@@ -25,9 +25,10 @@ import { HomeComponent } from './home/home.component';
     HomeComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+
   ],
   providers: [
     ContactService,

@@ -17,7 +17,7 @@ export class ContactService {
   }
 
   getContact(title: string ): Observable<Contact> {
-    this.messageService.add ('ContactService: fetched contact title=${title}');
+    this.messageService.add ('ContactService: fetched contact title=${name}');
     return of (CONTACTS.find(contact =>contact.title ===title));
   }
 }
