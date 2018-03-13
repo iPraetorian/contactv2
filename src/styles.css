@@ -1,11 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 h1 {
     font-family: arial;
-    color: #FCFBFC;
+    color: rgb(166, 230, 234);
     font-size: 40px;
     border: solid;
-    background: black;
+    background:  #312e2c;
     text-align: center;
+
+
     
 }
 
