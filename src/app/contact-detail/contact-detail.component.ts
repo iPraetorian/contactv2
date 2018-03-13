@@ -24,8 +24,8 @@ export class ContactDetailComponent implements OnInit {
     this.getContact();
   }
   getContact(): void {
-    const string = +this.route.snapshot.paramMap.get('name');
-    this.contactService.getContact(name)
+    const id = +this.route.snapshot.paramMap.get('id');
+    this.contactService.getContact(id)
     .subscribe(contact => this.contact = contact);
   }
   goBack(): void {

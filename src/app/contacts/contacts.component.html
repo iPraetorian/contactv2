@@ -1,7 +1,7 @@
 <h2> All Contacts</h2>
 <ul class="contacts">
   <li *ngFor="let contact of contacts">
-    <a routerLink="/detail/{{contact.name}}">
+    <a routerLink="/detail/{{contact.id}}">
       <span class="badge">{{ contact.title }} </span> {{ contact.name }}
     </a>
   </li>

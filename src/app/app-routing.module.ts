@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'contacts', component: ContactsComponent },
   { path: 'home', component: HomeComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'detail/:title', component: ContactDetailComponent }
+  { path: 'detail/:id', component: ContactDetailComponent }
 ];
 
 
