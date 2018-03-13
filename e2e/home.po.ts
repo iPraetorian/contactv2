@@ -5,7 +5,7 @@ export class HomePage {
         return browser.get('/');
     }
 
-    getButtonText() {
-        return element(by.class('btns')).getText();
+    getImageSilhouette() {
+        return element(by.binding('/assets/images/people.jpg'));
     }
 }

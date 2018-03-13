@@ -1,5 +1,5 @@
 import { HomePage } from './home.po';
-import { browser } from 'protractor';
+import { browser, element, by } from 'protractor';
 
 describe('home page view', function () {
     var page: HomePage;
@@ -7,9 +7,11 @@ describe('home page view', function () {
         page = new HomePage();
     });
 
-    it('should display a contacts and home button', () => {
+    it('should display a silhouette image on home page', () => {
         page.navigateTo();
-       
-    })
-    
+        expect(page.getImageSilhouette().isPresent);
+
+
+    });
+
 });
