@@ -1,17 +1,17 @@
 /* HeroesComponent's private CSS styles */
 .contacts {
-    margin: 0 0 2em 0;
+    margin: 2 0 2em 0;
     list-style-type: none;
     padding: 0;
-    width: 15em;
+    width: 20em;
   }
   .contacts li {
     position: relative;
     cursor: pointer;
     background-color: #EEE;
     margin: .5em;
-    padding: .3em 0;
-    height: 1.6em;
+    padding: .5em ;
+    height: 1.9em;
     border-radius: 4px;
   }
    
@@ -37,7 +37,7 @@
     display: inline-block;
     font-size: small;
     color: white;
-    padding: 0.8em 0.7em 0 0.7em;
+    padding: 0.9em 0.7em 0 0.7em;
     background-color: black;
     line-height: 1em;
     position: relative;
