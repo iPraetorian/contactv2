@@ -2,11 +2,9 @@ import { browser, by, element, $, $$ } from 'protractor';
 
 export class ContactDetailPage {
     navigateTo() {
-        return browser.get('/contacts');
+        return browser.get('http://localhost:4200/detail/1');
     }
-
-    getContactDetailRR() {
-        return element(by.css('ul li /detail/1')).click();
-        
+    getrRobbinsInfo(){
+        return element(by.binding('/assets/images/rRobbins.jpg'));
     };
-};
+}

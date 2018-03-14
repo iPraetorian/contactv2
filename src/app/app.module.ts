@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
+import { ContactSearchComponent } from './contact-search/contact-search.component';
 
 
 
@@ -44,7 +45,8 @@ import { InMemoryDataService } from './in-memory-data.service';
     ContactsComponent,
     MessagesComponent,
     ContactDetailComponent,
-    HomeComponent
+    HomeComponent,
+    ContactSearchComponent
   ],
 
   providers: [

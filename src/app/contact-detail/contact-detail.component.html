@@ -4,12 +4,13 @@
  <div><span>Bio:</span>{{contact.bio}}</div>
  <div><span>Tel:</span>{{contact.tel}}</div>
  
-<!-- <div>
+<div>
   <label>Name:
     <input [(ngModel)]="contact.name" placeholder="name"/>
   </label>
-  </div> -->
+  </div>
 
   <img class="thumbnail"[src]="contact.image">
   <button class="detailbtn"(click)="goBack()">go back</button>
+  <button (click)="save()">save</button>
 </div>
