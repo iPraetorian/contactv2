@@ -1,4 +1,4 @@
-import { browser, by, element } from 'protractor';
+import { browser, by, element, $$ } from 'protractor';
 
 export class ContactPage {
     navigateTo() {
@@ -6,6 +6,11 @@ export class ContactPage {
     }
 
     getContactList() {
-        return element(by.className('cID')).getText();
+        //return element(by.className('cID')).getText();
+        return element.all(by.css('.contacts li')).then(function(contacts) {
+            expect(contacts.length).toBe(11);
+            expect(contacts[0].getText()).toBe('/detail/1');
+        })
+
     }
 }

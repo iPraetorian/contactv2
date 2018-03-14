@@ -7,8 +7,8 @@ describe('contact-appv2 App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display page title', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to Contacts');
+    expect(page.getParagraphText()).toEqual('Project Contacts');
   });
 });
