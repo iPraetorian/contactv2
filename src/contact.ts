@@ -4,5 +4,6 @@ export class Contact {
     name: string;
     bio: string;
     image: string;
+    tel: number;
     
 }

@@ -1,4 +1,4 @@
-import { Contact } from './contact';
+/* import { Contact } from './contact';
 
 export const CONTACTS: Contact[] = [
     {id: 1, title: 'Climber', name: 'Royal Robbins', bio: 'Long time climber and Yosemite aficionado', image: 'assets/images/rRobins.jpg'},
@@ -11,4 +11,4 @@ export const CONTACTS: Contact[] = [
     {id: 8, title: 'Painter', name: 'Jean-Michael Basquiat', bio: 'Provacative African American Painter', image: 'assets/images/jmBasquiat.jpg'},
     {id: 9, title: 'Writer', name: 'Jack Kerouac', bio: 'Beatnik, author, traveler', image: 'assets/images/jKerouac.jpg'},
     {id: 10, title: 'Writer', name: 'Richard Wright', bio: 'Author of two of my most prized books', image: 'assets/images/rWright.jpg'}
-];
+]; */
