@@ -19,13 +19,17 @@ import { InMemoryDataService } from './in-memory-data.service';
 
 
 
+
 @NgModule({
 
   imports: [
     AppRoutingModule,
     BrowserModule,
     FormsModule,
+  
     HttpClientModule,
+  
+
 
 
      // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
@@ -45,7 +49,9 @@ import { InMemoryDataService } from './in-memory-data.service';
 
   providers: [
     ContactService,
-    MessageService
+    MessageService,
+
+    HttpClientModule
   ],
   bootstrap: [AppComponent]
 })
