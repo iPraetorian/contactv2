@@ -1,15 +1,17 @@
 import { ContactDetailPage } from './contactdetail.po';
 
 
-
-describe('contact detail page', function () {
-    var page: ContactDetailPage;
-
+describe('royal robbins contact info', function () {
+    let page: ContactDetailPage;
+    beforeEach(() => {
         page = new ContactDetailPage();
-
-
-    it('should display Royal Robbins information', () => {
-        page.navigateTo();
-        expect(page.getrRobbinsInfo).toContain('rRobins');
     });
+
+    it('should display robbins name', () => {
+       // expect(page.getRoyalRobbinsH2Text()).toContain('ROYAL');
+    });
+
+    it('should display robbins title', () => {
+        expect(page.getRoyalRobbinsTitle).toContain('Climber');
+    })
 })
