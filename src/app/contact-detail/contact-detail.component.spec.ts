@@ -5,13 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { RouterTestingModule } from '@angular/router/testing';
 import { ContactService } from '../contact.service';
 import { MessageService } from '../message.service';
+import { HttpClientModule } from '@angular/common/http';
 describe('ContactDetailComponent', () => {
   let component: ContactDetailComponent;
   let fixture: ComponentFixture<ContactDetailComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [ FormsModule, RouterTestingModule ],
+      imports: [ FormsModule, RouterTestingModule, HttpClientModule ],
       declarations: [ ContactDetailComponent ],
       providers: [ContactService, MessageService]
     })

@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { ContactSearchComponent } from './contact-search/contact-search.component';
+import { HttpModule } from '@angular/http';
 
 
 
@@ -27,8 +28,8 @@ import { ContactSearchComponent } from './contact-search/contact-search.componen
     AppRoutingModule,
     BrowserModule,
     FormsModule,
-  
     HttpClientModule,
+    HttpModule,
   
 
 
@@ -52,7 +53,6 @@ import { ContactSearchComponent } from './contact-search/contact-search.componen
   providers: [
     ContactService,
     MessageService,
-
     HttpClientModule
   ],
   bootstrap: [AppComponent]
