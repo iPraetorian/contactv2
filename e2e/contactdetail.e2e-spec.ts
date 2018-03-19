@@ -8,10 +8,6 @@ describe('royal robbins contact info', function () {
     });
 
     it('should display robbins name', () => {
-       // expect(page.getRoyalRobbinsH2Text()).toContain('ROYAL');
+       expect(page.getRoyalRobbinsH2Text()).toContain('ROYAL');
     });
-
-    it('should display robbins title', () => {
-        expect(page.getRoyalRobbinsTitle).toContain('Climber');
-    })
 })

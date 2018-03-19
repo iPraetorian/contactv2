@@ -13,10 +13,11 @@
 <ul class="contacts">
   <li *ngFor="let contact of contacts">
     <a routerLink="/detail/{{contact.id}}">
-      <span class="badge">{{contact.id}}</span> {{contact.name}} <img class="icon" [src]="contact.image">
+      <span class="badge">{{contact.id}}</span>
+      {{contact.name}}
+      <img class="icon" [src]="contact.image">
     </a>
-    <button class="delete" title="delete contact"
-    (click)="delete(contact)">x</button>
+    <button class="delete pull-right" title="delete contact" (click)="delete(contact)">x</button>
   </li>
 </ul>
 
@@ -49,5 +50,3 @@
 
 
 </ul> -->
-
-
