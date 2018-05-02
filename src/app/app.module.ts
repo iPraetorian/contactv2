@@ -16,15 +16,7 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { ContactSearchComponent } from './contact-search/contact-search.component';
 import { HttpModule } from '@angular/http';
 
-<<<<<<< HEAD
 
-
-
-
-
-
-=======
->>>>>>> d6a9e95b7273dd32a8057a7988278b50fe60accb
 @NgModule({
 
   imports: [
@@ -36,10 +28,10 @@ import { HttpModule } from '@angular/http';
 
 
 
+// The HttpClientInMemoryWebApiModule module intercepts HTTP requests
+// and returns simulated server responses.
+// Remove it when a real server is ready to receive requests.
 
-    // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
-    // and returns simulated server responses.
-    // Remove it when a real server is ready to receive requests.
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     )
