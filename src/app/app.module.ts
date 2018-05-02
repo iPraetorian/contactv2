@@ -16,9 +16,6 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { ContactSearchComponent } from './contact-search/contact-search.component';
 import { HttpModule } from '@angular/http';
 
-
-
-
 @NgModule({
 
   imports: [
