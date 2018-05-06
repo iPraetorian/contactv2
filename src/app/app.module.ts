@@ -15,13 +15,12 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { ContactSearchComponent } from './contact-search/contact-search.component';
 import { HttpModule } from '@angular/http';
-import { RouterModule } from '@angular/router';
+
 
 
 @NgModule({
 
   imports: [
-    RouterModule,
     AppRoutingModule,
     BrowserModule,
     FormsModule,
