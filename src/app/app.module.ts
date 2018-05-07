@@ -15,6 +15,7 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { ContactSearchComponent } from './contact-search/contact-search.component';
 import { HttpModule } from '@angular/http';
+import { ApiService } from './api.service';
 
 
 
@@ -47,7 +48,8 @@ import { HttpModule } from '@angular/http';
     ContactService,
     MessageService,
     HttpClientModule,
-    HttpClient
+    HttpClient,
+    ApiService
   ],
   bootstrap: [AppComponent]
 })
